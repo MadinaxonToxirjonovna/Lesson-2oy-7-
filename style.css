@@ -189,7 +189,53 @@ nav {
     height: 367px;
     flex-shrink: 0;
     cursor: pointer;
+    display: block;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.relief h3{
+    width: 244px;
+    position: absolute;
+    color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 42px; /* 131.25% */
+margin-top: 87px;
+margin-left: 624px;
+}
+
+.relief p{
+    color: #FFF;
+text-align: center;
+position: absolute;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; /* 166.667% */
+letter-spacing: 0.252px;
+margin: 157px 394px 0 393px;
+}
+
+.relief button{
+    color: #FFF;
+    position: absolute;
+text-align: center;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 20px; 
+width: 135px;
+height: 40px;
+flex-shrink: 0;
+border-radius: 9999px;
+background: none;
+border: 1px solid #FFF;
+margin: 267px    656px 60px 649px;
 }
 
 .relief img:hover {
