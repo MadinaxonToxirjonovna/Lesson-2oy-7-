@@ -190,6 +190,7 @@ nav {
     flex-shrink: 0;
     cursor: pointer;
     display: block;
+    transition: all 0.4s linear;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
 
